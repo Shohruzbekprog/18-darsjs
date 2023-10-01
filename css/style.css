@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.father {
+  display: flex;
+}
+.father .menu input {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  padding: 8px 8px;
+  background-color: rgb(255, 255, 255);
+  border: 0.1px solid rgb(195, 190, 190);
+  border-radius: 5px;
+}
+.father .menu ul li {
+  list-style: none;
+}
+.father .menu ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.head {
+  gap: 15px;
+}
+
+.header {
+  width: 30%;
+}
+
+.main {
+  position: relative;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 20px;
+}
+
+.card {
+  width: 220px;
+  height: 180px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
